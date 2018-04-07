@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_acc"
+        android:icon="@drawable/acc64"
+        android:title="@string/title_acc"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/item_quiz"
+        android:icon="@drawable/exam64"
+        android:title="@string/title_exam"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item_chat"
+        android:icon="@drawable/chat64"
+        android:title="@string/title_chat"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item_task"
+        android:icon="@drawable/task64"
+        android:title="@string/title_task"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item_schedule"
+        android:icon="@drawable/timee64"
+        android:title="@string/title_time"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
